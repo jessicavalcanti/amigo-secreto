@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Amigo Secreto da Família Cavalcanti</h1>
+    </header>
+
+    <main class="content">
+      <div class="imagens1">
+        <div>
+          <img src="./img/alcione.png" />
+          <p>Alcione</p>
+        </div>
+        <div>
+          <img src="./img/andrea2.png" />
+          <p>Andréa</p>
+        </div>
+        <div>
+          <img src="./img/carol.png" />
+          <p>Carolina</p>
+        </div>
+        <div>
+          <img src="./img/jessica.png" />
+          <p>Jéssica</p>
+        </div>
+      </div>
+
+      <div class="imagens2">
+        <div>
+          <img src="./img/josenildo.png" />
+          <p>Josenildo</p>
+        </div>
+        <div>
+          <img src="./img/laura.png" />
+          <p>Laura</p>
+        </div>
+        <div>
+          <img src="./img/magno.png" />
+          <p>Magno</p>
+        </div>
+        <div>
+          <img src="./img/wilton.png" />
+          <p>Wilton</p>
+        </div>
+      </div>
+    </main>
+
+    <div class="botao">
+      <button onclick="startProgress()">Sortear</button>
+    </div>
+
+    <footer>Feito com ♥ por Jeh e Will</footer>
+
+    <div id="overlay" class="overlay">
+      <div class="progress-content">
+        <p class="progress-text">Sorteando...</p>
+        <div class="progress-container">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
